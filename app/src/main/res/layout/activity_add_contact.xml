@@ -1,0 +1,47 @@
+<!-- activity_add_contact.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/nomContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter First Name" />
+
+    <EditText
+        android:id="@+id/prenomContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nomContact"
+        android:hint="Enter Last Name" />
+
+    <EditText
+        android:id="@+id/numContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/prenomContact"
+        android:hint="Enter Phone Number" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/numContact"
+        android:text="Add Contact" />
+
+    <Button
+        android:id="@+id/btnCnl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnAdd"
+        android:text="Cancel" />
+
+    <Button
+        android:id="@+id/btnAll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnCnl"
+        android:text="Show All Contacts" />
+
+</RelativeLayout>

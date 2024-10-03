@@ -1,0 +1,50 @@
+<!-- contactstructure.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/labelfirstname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NOM: "
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/valfirstname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/labelsecondname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PRENOM: "
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/valsecondname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/labelnumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NUMERO: "
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/valnumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textStyle="italic" />
+
+</LinearLayout>
